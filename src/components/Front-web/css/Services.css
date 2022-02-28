@@ -1,0 +1,115 @@
+#services {
+  padding: 5% 1%;
+  margin-bottom: 5%;
+}
+
+#services .row {
+  box-sizing: content-box;
+  display: flex;
+
+}
+
+#services .col-container {
+  display: table;
+
+}
+
+#services .col {
+  display: table-cell;
+  width: 50%;
+}
+
+#services .container .section-header h2 {
+  color: #5995fd;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+#services .container .section-header p {
+  font-family: 'Rubik', sans-serif;
+  color: #9c9c9c;
+  font-size: 1.3rem;
+  margin-bottom: 5%;
+  font-weight: 500;
+}
+
+#services .box {
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  transition: 0.4s;
+
+}
+
+#services .box:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+
+#services .box .icon {
+  float: left;
+}
+
+#services .box .icon {
+  color: #fff;
+  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  transform: scale(3.8);
+  margin-top: 12%;
+}
+
+
+
+#services .box h4 {
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
+
+
+#services .box h4 a {
+  color: #6ea1fa;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: 'Fredoka One', cursive;
+
+}
+
+#services .box h4 a:hover {
+  text-decoration: underline wavy #ff9900;
+}
+
+#services .box p {
+  font-family: 'Rubik', sans-serif;
+  color: #9c9c9c;
+  font-size: 1.1rem;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  #services .box .box {
+    margin-bottom: 20px;
+  }
+
+  #services .box .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 80px;
+    margin: auto;
+    display: none;
+  }
+
+  #services .box h4, #services .box p {
+    margin-left: 0;
+    text-align: center;
+  }
+  #htext h2 {
+    font-size: 2rem;
+    line-height: initial;
+}
+}

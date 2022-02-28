@@ -1,0 +1,15 @@
+.Index__Container {
+  display: flex;
+}
+
+.Index__ChatContainer {
+  flex: 1;
+  overflow: scroll;
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Index__ChatContainer::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,66 @@
+
+#steps{
+    margin: 9% auto;
+
+}
+#steps h2{
+    color: #5995fd;
+    font-weight: 500;
+    font-size: 2.4rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+#steps h4{
+color: #5995fd;
+font-weight: 500;
+font-size: 2rem;
+font-family: 'Fredoka One', cursive;
+}
+
+.cardPath{
+    box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+    background: #fff;
+}
+
+.volHead span{
+    color: #ff9900;
+}
+
+.numberCircle{
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    border-width: 4px !important; 
+    color: #fff;
+    background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+}
+
+.numberCircle p{
+    margin: auto;
+    font-weight: 300;
+    font-size: 1.1rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.btn-Vol{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #5995fd;
+    border: 2px solid #5995fd;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-Vol:hover{
+    background: #4d84e2;
+    box-shadow: 5px 5px 15px rgba(37, 115, 126, 0.3);
+    color: #fff;
+    text-decoration: none;
+}

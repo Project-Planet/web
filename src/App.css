@@ -1,0 +1,26 @@
+.profile {
+  position: relative;
+  text-align: center;
+  line-height: 2.5rem;
+  margin: 10px 0;
+  display: flex;
+}
+.profile .profile-pic {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 2.5rem;
+  padding-right: 0px;
+}
+.profile .info {
+  margin-left: 5px;
+}
+@media screen and (max-width: 768px) {
+  .profile {
+    text-align: left;
+    line-height: initial;
+  }
+}

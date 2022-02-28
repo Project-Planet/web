@@ -1,0 +1,98 @@
+/* About Section
+--------------------------------*/
+#about {
+  padding: 60px 0 30px 0;
+  margin-bottom: 5%;
+
+}
+
+.about-img {
+  overflow: hidden;
+  margin-left: -30px;
+
+}
+
+.about-img img {
+
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .about-img {
+    height: auto;
+  }
+
+  .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+  #htext h2 {
+    font-size: 2rem;
+    line-height: initial;
+}
+}
+
+
+
+#about .content h2 {
+  color: #5995fd;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
+  line-height: 3rem;
+  padding-left: 30px;
+}
+
+#about .content h4 {
+  font-family: 'Rubik', sans-serif;
+  color: #9c9c9c;
+  font-size: 1.25rem;
+  margin-bottom: 5%;
+  padding-left: 40px;
+
+}
+
+#about .content li {
+  font-family: 'Rubik', sans-serif;
+  color: #9c9c9c;
+  font-size: 1.1rem;
+  line-height: 24px;
+  font-weight: 500;
+  list-style: none;
+  padding-left: 40px;
+}
+
+#about .content li:last-child {
+  margin-bottom: 0;
+}
+
+
+#about .content ul li {
+  padding-bottom: 10px;
+}
+
+.btn-aboutus {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #5995fd;
+  border: 2px solid #5995fd;
+  font-size: 15px;
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 7%;
+
+}
+
+.btn-aboutus:hover {
+  background: #4d84e2;
+  box-shadow: 5px 5px 15px rgba(37, 115, 126, 0.3);
+  text-decoration: none;
+  color: #ffff;
+}

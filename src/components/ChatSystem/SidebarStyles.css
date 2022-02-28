@@ -1,0 +1,35 @@
+.Sidebar__container {
+  flex: 0.45;
+  border-right: 1px solid whitesmoke;
+  height: 100vh;
+  min-width: 300px;
+  max-width: 350px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Sidebar__container::-webkit-scrollbar {
+  display: none;
+}
+
+.Sidebar__header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  align-items: center;
+  padding: 15px;
+  height: 80px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Sidebar__userAvatar {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.Sidebar__userAvatar:hover {
+  opacity: 0.8;
+}

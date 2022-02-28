@@ -1,0 +1,22 @@
+.profilePic {
+  position: relative;
+  height: 230px;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profilePic img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.profilePic button {
+  position: absolute;
+  bottom: -1%;
+  height: 60px;
+  width: 100%;
+}
+.btn.btn-danger {
+  background: rgb(185, 9, 9) !important;
+  width: 200px !important;
+}

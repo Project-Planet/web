@@ -1,0 +1,61 @@
+.missionSec {
+  padding: 7% 5%;
+}
+
+.missionSec .row {
+  box-sizing: content-box;
+  display: flex;
+}
+
+.missionSec .box {
+  padding: 40px;
+  margin: 40px auto;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  transition: 0.4s;
+}
+
+.missionSec .col {
+  display: flex;
+  /* width: 50%; */
+}
+
+
+.missionSec .box:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+
+.missionSec .box .icon {
+  float: left;
+}
+
+.missionSec .box .icon {
+  color: #fff;
+  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  transform: scale(3.8);
+  margin-top: 12%;
+}
+
+
+
+.missionSec .box h4 {
+  margin-left: 13%;
+  margin-bottom: 15px;
+  color: #6ea1fa;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+.missionSec .box p {
+
+  font-family: 'Rubik', sans-serif;
+  color: #9c9c9c;
+  font-size: 1.1rem;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+  font-weight: 500;
+}

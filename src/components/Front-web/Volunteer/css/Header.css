@@ -1,0 +1,37 @@
+.volHeader{
+    
+    color: aliceblue;
+    margin-top: 80px;
+    padding: 7%;
+    font-family: 'Rubik', sans-serif;  
+    background: linear-gradient(to bottom, #ffffff , #f3f3f3);
+}
+
+.volHeader .sec2 h2{
+    color: #5995fd;
+    font-weight: 500;
+    font-size: 2.4rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.volHeader .sec2  hr{
+    border: none;
+    border-top: 7px solid #ff9900; 
+    border-radius: 30%;
+    width: 25%; 
+    margin-left:0;
+}
+
+.volHeader .sec2 p{
+    font-family: 'Rubik', sans-serif;
+    padding-top: 7px;
+    color: #9c9c9c ;
+    font-size: 1.1rem;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+  
+  
+  

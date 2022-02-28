@@ -1,0 +1,16 @@
+.userMail a{
+    width: 100%;
+    color: #5995fde5;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive;
+    
+}
+.userMail a:hover{
+    color: #5995fde5;
+text-decoration: underline wavy #ff9900;
+}
+
+.postsContainer::-webkit-scrollbar {
+    display: none;
+  }

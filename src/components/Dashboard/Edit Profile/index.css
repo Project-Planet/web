@@ -1,0 +1,31 @@
+.input_title {
+  font-family: 'Rubik', sans-serif;
+  color: #9c9c9c;
+  font-size: 1.3rem;
+}
+.edit_profile input{
+  box-shadow: 3px 3px 5px rgba(37, 115, 126, 0.3);
+  border-radius: 7px;
+  font-size: .9rem;
+  font-family: 'Rubik', sans-serif;
+  color: #9c9c9c;
+  margin: auto;
+  min-width: 500px;
+  max-width: 500px;
+  
+  margin-bottom: 1rem;
+  padding: 3%;
+}
+
+@media (max-width: 768px){
+  .edit_profile_container{
+    width: 100%;
+  
+  }
+
+  .edit_profile input{
+    min-width: 200px;
+    max-width: 300px;
+   
+  }
+}

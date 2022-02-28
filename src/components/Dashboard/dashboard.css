@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+
+    /* Post.js */
+    .Post__btns__mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-end;
+    }
+    .Post__btns__mobile Button {
+        margin: 0.5rem;
+    }
+
+    .SeePost__post_title {
+        font-size: 2rem !important;
+    }
+}

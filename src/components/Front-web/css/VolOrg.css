@@ -1,0 +1,162 @@
+.container1 .section1 {
+    display: flex;
+    width: 100%;
+    padding: 5% 10%;
+    flex-wrap: wrap;
+}
+
+.volOrgCon {
+    min-width: 50%;
+    margin: 4% 0;
+}
+
+.volOrgCon h2 {
+    color: #5995fd;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.volOrgCon>hr {
+
+    border: none;
+    border-top: 7px solid #ff9900;
+    border-radius: 30%;
+    width: 25%;
+    margin-left: 0;
+}
+
+.container1>.volOrgCon>.img1 {
+    margin-right: 40px;
+    width: 100%;
+    float: right;
+}
+
+.volOrgCon>p {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 7px;
+    color: #9c9c9c;
+    font-size: 1.2rem;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+.volOrgCon>h4 {
+    margin-top: 10%;
+    font-weight: 600;
+    color: #444444;
+}
+
+
+
+.volOrgCon>h4>span {
+    border-radius: 5px;
+    background: #fcda5a;
+    padding: 5px 10px 5px 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.volOrgCon>h4>span:hover {
+    box-shadow: 5px 5px 15px rgba(37, 115, 126, 0.3);
+}
+
+
+.volOrgCon2>div {
+    margin: 7% 0;
+    height: auto;
+    background: #fcda5a;
+    line-height: 40px;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+
+.volOrgCon2>div>h4 {
+    font-family: 'Rubik', sans-serif;
+    color: #272727;
+    font-weight: 600;
+}
+
+
+
+
+.volOrgCon>.name {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 1%;
+    width: 100%;
+    transition: .9s linear;
+    color: #5995fd;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.volOrgCon>.name2 {
+    display: none;
+}
+
+.volOrgCon>.name>.nam1 a {
+
+    position: absolute;
+    left: 30%;
+    top: -20px;
+    text-decoration: none;
+}
+
+.volOrgCon>.name>.nam2 a {
+
+    position: absolute;
+    left: 60%;
+    top: -20px;
+    text-decoration: none;
+}
+
+.volOrgCon>.name>.nam2 a:hover {
+    color: #007bff;
+    text-decoration: underline wavy #ff9900;
+}
+
+.volOrgCon>.name>.nam1 a:hover {
+    color: #007bff;
+    text-decoration: underline wavy #ff9900;
+}
+
+
+
+
+
+
+
+
+
+.btn-sections {
+    background: #50d8af;
+    border: 2px solid #50d8af;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 2px;
+    transition: 0.5s;
+    color: #ffff;
+
+}
+
+.btn-sections:hover {
+    background: #42c9a0;
+    box-shadow: 5px 5px 15px rgba(37, 115, 126, 0.3);
+    text-decoration: none;
+    color: #ffff;
+}
+
+@media screen and (max-width: 768px) {
+    #htext h2 {
+        font-size: 2rem;
+        line-height: initial;
+    }
+}

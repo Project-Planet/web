@@ -1,0 +1,11 @@
+.plusSignDiv {
+  bottom: 5%;
+  left: 4%;
+}
+.plusSignDiv i {
+  position: relative;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}

@@ -1,0 +1,18 @@
+.Chat__container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  word-break: break-word;
+}
+
+.Chat__container:hover {
+  background-color: #e9eaeb;
+}
+
+.Chat__UseAvatar {
+  height: 50px !important;
+  width: 50px !important;
+  margin: 5px;
+  margin-right: 15px;
+}

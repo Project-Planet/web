@@ -1,0 +1,24 @@
+.postCard {
+  height: 680px;
+}
+.postCard .carousel {
+  position: relative;
+  height: 62% !important;
+  overflow: hidden !important;
+}
+.postCard .carousel .carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+.postCard .carousel .carousel-inner img {
+  height: 420px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: top !important;
+}
+.postCard img {
+  position: relative;
+  height: 62% !important;
+  width: 100% !important;
+  /* object-fit: cover; */
+}

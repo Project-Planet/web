@@ -1,0 +1,37 @@
+.aboutSec{
+    margin-top: 80px;
+   
+    padding: 7%;
+    box-shadow: 5px 5px 5px rgba(37, 115, 126, 0.1);
+}
+
+.aboutSec .abtContent{
+    padding: 3%;
+}
+
+.aboutSec h1{
+    color: #5995fd;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: 'Fredoka One', cursive;
+    line-height: 3rem;
+    
+}
+
+.aboutSec hr{
+    border: none;
+    border-top: 7px solid #ff9900; 
+    border-radius: 30%;
+    width: 25%; 
+    margin-left:0;
+    
+}
+
+.abtContent  p{
+    font-family: 'Rubik', sans-serif;
+    padding-top: 7px;
+    color: #8a8a8a;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
