@@ -153,7 +153,7 @@ const Home = ({ userId, userData, isLoading }) => {
                         }}
                         alt={"profile"}
                       />
-                    ) : !userData.ngo ? (
+                    ) : userData && !userData.ngo ? (
                       <p>
                         {userData.firstName
                           ? userData.firstName.charAt(0) +
