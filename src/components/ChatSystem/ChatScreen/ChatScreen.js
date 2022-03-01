@@ -108,35 +108,39 @@ const ChatScreen = () => {
     <div>
       <div className="ChatScreen__header">
         {recipient ? (
-            <Avatar src={recipient?.profilePic} />
-          ) : (
-            <Avatar>user</Avatar>
+          <Avatar src={recipient?.profilePic} />
+        ) : (
+          <Avatar>user</Avatar>
         )}
 
         <div className="ChatScreen__headerInfo">
-        {recipient ? (
-            <h3>{recipientEmail}</h3>
-          ) : (
-            <h3>user</h3>
-        )}
-          
+          {recipient ? <h3>{recipientEmail}</h3> : <h3>user</h3>}
         </div>
-  
       </div>
 
       <div className="ChatScreen__messageContainer">
         {showMessages()}
-        <div className="ChatScreen__EndOfMessaage" ref={endOfMessagesRef}/>
+        <div className="ChatScreen__EndOfMessaage" ref={endOfMessagesRef} />
       </div>
 
       <form className="ChatScreen__inputContainer">
-        <input className="ChatScreen__input" value={input} onChange={(e) => setInput(e.target.value)}/>
-        <button hidden disabled={!input} type="submit" onClick={sendMessage}>
+        <input
+          className="ChatScreen__input"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
+        <button
+          disabled={!input}
+          type="submit"
+          onClick={sendMessage}
+          className="btn-aboutus"
+          style={{ cursor: "pointer", borderRadius: "12px", marginLeft: "0" }}
+        >
           Send Message
         </button>
       </form>
     </div>
-  )
+  );
 }
 
 export default ChatScreen
