@@ -1,6 +1,7 @@
 .Sidebar__container {
   flex: 0.45;
   border-right: 1px solid whitesmoke;
+  background-color: hsla(228, 100%, 97%, 0.87);
   height: 100vh;
   min-width: 300px;
   max-width: 350px;
@@ -17,7 +18,7 @@
   display: flex;
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: hsla(228, 100%, 97%, 0.87);
   z-index: 1;
   align-items: center;
   padding: 15px;

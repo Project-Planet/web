@@ -4,10 +4,16 @@
   cursor: pointer;
   padding: 15px;
   word-break: break-word;
+  /* border: 2px solid #e2f9ff; */
+  /* border-radius:12px; */
+  box-shadow: 1.5px 1px 3px rgba(37, 115, 126, 0.3);
+  transition: ease in 2sec;
+  margin: 0.5rem auto;
 }
 
 .Chat__container:hover {
-  background-color: #e9eaeb;
+  background-color: #b9dcff;
+  box-shadow: 2px 2px 4px rgba(37, 115, 126, 0.3);
 }
 
 .Chat__UseAvatar {

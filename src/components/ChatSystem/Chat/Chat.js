@@ -33,7 +33,10 @@ const Chat = ({ userData, id, openedChatId, users }) => {
   return (
     <div
       className="Chat__container"
-      style={{ background: id === openedChatId ? "#f5f5f5" : "white" }}
+      style={{
+        background:
+          id === openedChatId ? "#eef6f8" : "hsla(228, 100%, 97%, 0.87)",
+      }}
       onClick={enterChat}
     >
       {recipient ? (
